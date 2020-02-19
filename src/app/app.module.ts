@@ -11,7 +11,7 @@ import { RecipeListComponent } from
 import { RecipeDetailComponent } from 
 './recipes/recipe-detail/recipe-detail.component';
 import { RecipeItemComponent } from 
-'./recipes/recipe-item/recipe-item.component';
+'./recipes/recipe-list/recipe-item/recipe-item.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 
