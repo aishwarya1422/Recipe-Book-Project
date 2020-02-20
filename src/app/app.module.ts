@@ -14,11 +14,12 @@ import { RecipeItemComponent } from
 './recipes/recipe-list/recipe-item/recipe-item.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
+import { DropDownDirective } from './shared/dropdown.directive';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, HeaderComponent , RecipeComponent , RecipeListComponent, RecipeDetailComponent,RecipeItemComponent, ShoppingListComponent, ShoppingEditComponent],
+  declarations: [ AppComponent, HelloComponent, HeaderComponent , RecipeComponent , RecipeListComponent, RecipeDetailComponent,RecipeItemComponent, ShoppingListComponent, ShoppingEditComponent , DropDownDirective],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
