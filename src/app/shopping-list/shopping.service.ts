@@ -8,7 +8,7 @@ export class ShoppingService {
    new Ingredient('Oranges',6)
   ];
 
-  getingredients(){
+  getIngredients(){
     return this.ingredients.slice();
   }
 
