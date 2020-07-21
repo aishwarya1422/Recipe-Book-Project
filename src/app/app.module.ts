@@ -15,10 +15,11 @@ import { RecipeItemComponent } from
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { DropDownDirective } from './shared/dropdown.directive';
+import {AppRoutingModule} from './app-routing.module';
 
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:      [ BrowserModule, FormsModule , AppRoutingModule ],
   declarations: [ AppComponent, HelloComponent, HeaderComponent , RecipeComponent , RecipeListComponent, RecipeDetailComponent,RecipeItemComponent, ShoppingListComponent, ShoppingEditComponent , DropDownDirective],
   bootstrap:    [ AppComponent ]
 })
