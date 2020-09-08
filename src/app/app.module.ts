@@ -19,10 +19,11 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { DropDownDirective } from './shared/dropdown.directive';
 import {AppRoutingModule} from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule , AppRoutingModule ,ReactiveFormsModule],
+  imports:      [ BrowserModule, FormsModule , AppRoutingModule ,ReactiveFormsModule, HttpClientModule],
   declarations: [ AppComponent, HelloComponent, HeaderComponent , RecipeComponent , RecipeListComponent, RecipeDetailComponent,RecipeEditComponent, RecipeItemComponent,RecipeStartComponent, ShoppingListComponent, ShoppingEditComponent , DropDownDirective],
   bootstrap:    [ AppComponent ]
 })
